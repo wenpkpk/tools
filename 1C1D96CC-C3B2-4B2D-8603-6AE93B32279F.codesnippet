@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>apmonitorpointmanager</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_&lt;#key#&gt;, kActionID, &lt;#业务ID#&gt;, kBizID, &lt;#埋点ID#&gt;, kActionSeed,   &lt;#当前视图#&gt;,kCurrentViewID,
+  &lt;#上一个视图#&gt;,kLastViewID,&lt;#(NSString *), ...#&gt;, nil];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1C1D96CC-C3B2-4B2D-8603-6AE93B32279F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>埋点管理器</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My-APMonitorPointManager</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

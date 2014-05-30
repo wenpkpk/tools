@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>NSNotificationCenter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>            [[NSNotificationCenter defaultCenter] addObserver:&lt;#(id)#&gt;
+                                                     selector:&lt;#(SEL)#&gt;
+                                                         name:&lt;#(NSString *)#&gt;
+                                                       object:&lt;#(id)#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>55CD8348-514C-4D83-9874-2C3D64759300</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>根据name，添加消息监听</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My-NSNotificationCenter-addObserver-name</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
