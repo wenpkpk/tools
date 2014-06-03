@@ -3,30 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>defaultCell</string>
+	<string>test</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *cellIdentifier = &lt;#@"cell"#&gt;;
-UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+	<string>//test
 
-if (!cell)
-{
-    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-}</string>
+&lt;#statements#&gt;
+return &lt;#expression#&gt;;
+//test</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>35568379-9693-4ACA-9CD7-4BFDA99AD81C</string>
+	<string>25DF94F3-9EEF-463F-8619-1EEBB60AD6C4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建默认cell</string>
+	<string>添加测试代码</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-Default-Cell</string>
+	<string>My-test</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
