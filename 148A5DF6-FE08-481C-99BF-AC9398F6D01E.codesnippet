@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>add by</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//add by &lt;#author#&gt;, begin
+//reason:&lt;#reason#&gt;
+//date:&lt;#yyyy#&gt;-&lt;#mm#&gt;-&lt;#dd#&gt;
+
+&lt;#statements#&gt;;
+
+//add end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>148A5DF6-FE08-481C-99BF-AC9398F6D01E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加作者</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My-addAuthor</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
