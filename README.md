@@ -25,7 +25,7 @@ Xcode代码片段共享
 3.cellForRowAtIndexPath	—-cell
 ###
 	- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+	{
     left***UITableViewCell***right *cell = [tableView dequeueReusableCellWithIdentifier:left***@"cell"***right];
     
     if (nil == cell)
