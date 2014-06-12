@@ -26,12 +26,12 @@ Xcode代码片段共享
 ###
 	- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 	{
-    left***UITableViewCell***right *cell = [tableView dequeueReusableCellWithIdentifier:left***@"cell"***right];
+   	 left***UITableViewCell***right *cell = [tableView dequeueReusableCellWithIdentifier:left***@"cell"***right];
     
-    if (nil == cell)
-    {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:left***@"cell"***right];
-    }
+   	 if (nil == cell)
+   	 {
+      		  cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:left***@"cell"***right];
+  	  }
     
     left***statements***right
     
@@ -50,11 +50,11 @@ Xcode代码片段共享
 5.myCell
 ###
 	static NSString *cellIdentifier = left***@"cellIdentifier"***right;
-UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 
-if (!cell)
-{
-    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+	if (!cell)
+	{
+    		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
 	}
 ###
 
@@ -62,8 +62,8 @@ if (!cell)
 ###
 	-(void)dealloc
 	{
-    [NSObject cancelPreviousPerformRequestsWithTarget:self];
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
+   		 [NSObject cancelPreviousPerformRequestsWithTarget:self];
+   		 [[NSNotificationCenter defaultCenter] removeObserver:self];
 	}
 ###
 
@@ -76,9 +76,9 @@ if (!cell)
 ###
 	- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 	{
-    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    		[tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    left***statements***right
+   	 	left***statements***right
 	}
 ###
 
