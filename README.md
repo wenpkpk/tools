@@ -13,7 +13,7 @@ Xcode代码片段共享
     //reason:____[reason]____
     //date:____[yyyy]____-____[mm]____-____[dd]____
     
-    ____[statements]____
+    ____[code]____
     
     //add end
 ###
@@ -37,7 +37,7 @@ Xcode代码片段共享
       		  cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:____[@"cell"]____];
   	  }
     
-    ____[statements]____
+    ____[code]____
     
     return cell;
 	}
@@ -87,7 +87,7 @@ Xcode代码片段共享
 	{
     		[tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-   	 	____[statements]____
+   	 	____[code]____
 	}
 ###
 
