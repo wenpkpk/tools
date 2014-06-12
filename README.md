@@ -42,7 +42,7 @@ Xcode代码片段共享
 4.clicked
 ###
 	- (void)left***btn***rightClicked:(id)sender
-{
+	{
     
 }
 ###
@@ -61,7 +61,7 @@ if (!cell)
 6.dealloc
 ###
 	-(void)dealloc
-{
+	{
     [NSObject cancelPreviousPerformRequestsWithTarget:self];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
@@ -75,7 +75,7 @@ if (!cell)
 8. didSelectRowAtIndexPath
 ###
 	- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+	{
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
     left***statements***right
