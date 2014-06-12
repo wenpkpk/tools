@@ -1,24 +1,24 @@
 tools
 =====
-\#\>
+
 Xcode代码片段共享
 使用：
     git下载完，放在系统~/Library/Developer/Xcode/UserData/CodeSnippets
 
 1.add by	-添加作者
 ###
-    //add by \<\#author\#\>, begin
-    //reason:\<\#reason\#\>
-    //date:\<\#yyyy\#\>-\<\#mm\#\>-\<\#dd\#\>
+    //add by left***author***right, begin
+    //reason:left***reason***right
+    //date:left***yyyy***right-left***mm***right-left***dd***right
     
-    \<\#statements\#\>
+    left***statements***right
     
     //add end
 ###
 
 2.apMonitorPointManager	—-埋点
 ###
-[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_\<\#key\#\>, kActionID, \<\#业务ID\#\>, kBizID, \<\#埋点ID\#\>, kActionSeed,   \<\#当前视图\#\>,kCurrentViewID, \<\#上一个视图\#\>,kLastViewID,\<\#(NSString *), ...\#\>, nil];
+[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_left***key***right, kActionID, left***业务ID***right, kBizID, left***埋点ID***right, kActionSeed,   left***当前视图***right,kCurrentViewID, left***上一个视图***right,kLastViewID,left***(NSString *), ...***right, nil];
 ###
 
 
@@ -26,14 +26,14 @@ Xcode代码片段共享
 ###
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    \<\#UITableViewCell\#\> *cell = [tableView dequeueReusableCellWithIdentifier:\<\#@"cell"\#\>];
+    left***UITableViewCell***right *cell = [tableView dequeueReusableCellWithIdentifier:left***@"cell"***right];
     
     if (nil == cell)
     {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:\<\#@"cell"\#\>];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:left***@"cell"***right];
     }
     
-    \<\#statements\#\>
+    left***statements***right
     
     return cell;
 }
@@ -41,7 +41,7 @@ Xcode代码片段共享
 
 4.clicked
 ###
-- (void)\<\#btn\#\>Clicked:(id)sender
+- (void)left***btn***rightClicked:(id)sender
 {
     
 }
@@ -49,7 +49,7 @@ Xcode代码片段共享
 
 5. myCell
 ###
-static NSString *cellIdentifier = \<\#@"cellIdentifier"\#\>;
+static NSString *cellIdentifier = left***@"cellIdentifier"***right;
 UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 
 if (!cell)
@@ -69,7 +69,7 @@ if (!cell)
 
 7.id
 ###
-id\<\#protocol\#\> \<\#delegate\#\>;
+idleft***protocol***right left***delegate***right;
 ###
 
 8. didSelectRowAtIndexPath
@@ -78,21 +78,21 @@ id\<\#protocol\#\> \<\#delegate\#\>;
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    \<\#statements\#\>
+    left***statements***right
 }
 ###
 
 9.disAsyncMain或者dispatch_async_main
 ###
 dispatch_async(dispatch_get_main_queue(), ^{
-                \<\#code\#\>
+                left***code***right
             });
 ###
 
 10.disAsyncGlobal或者dispatch_async_global
 ###
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-                \<\#code\#\>
+                left***code***right
             });
 ###
 
