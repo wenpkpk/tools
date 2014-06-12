@@ -36,7 +36,7 @@ Xcode代码片段共享
     left***statements***right
     
     return cell;
-}
+	}
 ###
 
 4.clicked
@@ -44,7 +44,7 @@ Xcode代码片段共享
 	- (void)left***btn***rightClicked:(id)sender
 	{
     
-}
+	}
 ###
 
 5. myCell
@@ -55,7 +55,7 @@ UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentif
 if (!cell)
 {
     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-}
+	}
 ###
 
 6.dealloc
@@ -64,7 +64,7 @@ if (!cell)
 	{
     [NSObject cancelPreviousPerformRequestsWithTarget:self];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
+	}
 ###
 
 7.id
@@ -79,7 +79,7 @@ if (!cell)
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
     left***statements***right
-}
+	}
 ###
 
 9.disAsyncMain或者dispatch_async_main
