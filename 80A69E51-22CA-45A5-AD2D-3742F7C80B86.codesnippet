@@ -3,30 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>modify by</string>
+	<string>performBackground</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//modify by &lt;#author#&gt;, begin
-//reason:&lt;#reason#&gt;
-//date:&lt;#yyyy#&gt;-&lt;#mm#&gt;-&lt;#dd#&gt;
-
-&lt;#statements#&gt;
-
-//modify end</string>
+	<string>[self performSelectorInBackground:&lt;#(SEL)#&gt; withObject:&lt;#nil#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9253EAD-48DB-4A7A-908D-530710502189</string>
+	<string>80A69E51-22CA-45A5-AD2D-3742F7C80B86</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>修改作者</string>
+	<string>异步线程执行该函数</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-modifyAuthor</string>
+	<string>My-Perform-Selector-Background</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

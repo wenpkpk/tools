@@ -3,30 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>modify by</string>
+	<string>forSubViews</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//modify by &lt;#author#&gt;, begin
-//reason:&lt;#reason#&gt;
-//date:&lt;#yyyy#&gt;-&lt;#mm#&gt;-&lt;#dd#&gt;
-
-&lt;#statements#&gt;
-
-//modify end</string>
+	<string>for (UIView *subView in [&lt;#self.view#&gt; subviews])
+{
+    NSLog(@"subView = %@", subView);
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9253EAD-48DB-4A7A-908D-530710502189</string>
+	<string>1DC780B5-EE85-443F-A88C-3C578FA42A87</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>修改作者</string>
+	<string>枚举subViews</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-modifyAuthor</string>
+	<string>My-Enum-SubViews</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -13,7 +13,7 @@
 {
     int numberOfSections = 1;
     
-    &lt;#statements#&gt;;
+    &lt;#statements#&gt;
     
     return numberOfSections;
 }</string>

@@ -3,30 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>modify by</string>
+	<string>appExit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//modify by &lt;#author#&gt;, begin
-//reason:&lt;#reason#&gt;
-//date:&lt;#yyyy#&gt;-&lt;#mm#&gt;-&lt;#dd#&gt;
-
-&lt;#statements#&gt;
-
-//modify end</string>
+	<string>[DTContextGet().currentApplication exitAnimated:&lt;#YES#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9253EAD-48DB-4A7A-908D-530710502189</string>
+	<string>B9914867-614E-4701-9BE0-A54E662AA548</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>修改作者</string>
+	<string>退出当前app</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-modifyAuthor</string>
+	<string>My-Exit-Current-App</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -9,9 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] removeObserver:&lt;#(id)#&gt;
+	<string>[[NSNotificationCenter defaultCenter] removeObserver:&lt;#self#&gt;
                                                             name:&lt;#(NSString *)#&gt;
-                                                          object:&lt;#(id)#&gt;];</string>
+                                              object:&lt;#nil#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F99AFE53-63DA-48FE-9EA6-F36C93DA201A</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>modify by</string>
+	<string>popToRootViewController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//modify by &lt;#author#&gt;, begin
-//reason:&lt;#reason#&gt;
-//date:&lt;#yyyy#&gt;-&lt;#mm#&gt;-&lt;#dd#&gt;
-
-&lt;#statements#&gt;
-
-//modify end</string>
+	<string>[self.navigationController popToRootViewControllerAnimated:&lt;#YES#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9253EAD-48DB-4A7A-908D-530710502189</string>
+	<string>93B6C36F-B5A3-446C-B599-355EDD762938</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>修改作者</string>
+	<string>pop到根VC</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-modifyAuthor</string>
+	<string>My-PopToRootViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

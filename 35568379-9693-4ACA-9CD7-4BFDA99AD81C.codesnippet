@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>defaultCell</string>
+	<string>myCell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *cellIdentifier = &lt;#@"cell"#&gt;;
+	<string>static NSString *cellIdentifier = &lt;#@"cellIdentifier"#&gt;;
 UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 
 if (!cell)
@@ -21,9 +21,9 @@ if (!cell)
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建默认cell</string>
+	<string>创建一个cell</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-Default-Cell</string>
+	<string>My-Create-Cell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

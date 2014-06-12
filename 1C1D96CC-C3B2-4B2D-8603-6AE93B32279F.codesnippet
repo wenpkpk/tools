@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmonitorpointmanager</string>
+	<string>apMonitorPointManager</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_&lt;#key#&gt;, kActionID, &lt;#业务ID#&gt;, kBizID, &lt;#埋点ID#&gt;, kActionSeed,   &lt;#当前视图#&gt;,kCurrentViewID,
-  &lt;#上一个视图#&gt;,kLastViewID,&lt;#(NSString *), ...#&gt;, nil];
+	<string>[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_&lt;#key#&gt;, kActionID, &lt;#业务ID#&gt;, kBizID, &lt;#埋点ID#&gt;, kActionSeed,   &lt;#当前视图#&gt;,kCurrentViewID, &lt;#上一个视图#&gt;,kLastViewID,&lt;#(NSString *), ...#&gt;, nil];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1C1D96CC-C3B2-4B2D-8603-6AE93B32279F</string>

@@ -18,9 +18,9 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:&lt;#@"cell"#&gt;];
     }
     
-    &lt;#statements#&gt;;
+    &lt;#statements#&gt;
     
-    return &lt;#cell#&gt;;
+    return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DE21C50F-4491-47E6-BC69-9563EC0249A4</string>

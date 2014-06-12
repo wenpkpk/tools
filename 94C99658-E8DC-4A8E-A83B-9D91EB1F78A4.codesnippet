@@ -16,6 +16,8 @@
 #pragma mark ______doing
 
 
+#pragma mark ______clicked
+
 
 #pragma mark ______create
 
@@ -29,7 +31,9 @@
 
 
 
-#pragma mark - public</string>
+#pragma mark - public
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>94C99658-E8DC-4A8E-A83B-9D91EB1F78A4</string>
 	<key>IDECodeSnippetLanguage</key>
