@@ -6,6 +6,7 @@ Xcode代码片段共享
     git下载完，放在系统~/Library/Developer/Xcode/UserData/CodeSnippets
 
 1.add by	-添加作者
+###
     //add by <#author#>, begin
     //reason:<#reason#>
     //date:<#yyyy#>-<#mm#>-<#dd#>
@@ -13,6 +14,7 @@ Xcode代码片段共享
     <#statements#>
     
     //add end
+###
 
 2.apMonitorPointManager	—-埋点
 [[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_<#key#>, kActionID, <#业务ID#>, kBizID, <#埋点ID#>, kActionSeed,   <#当前视图#>,kCurrentViewID, <#上一个视图#>,kLastViewID,<#(NSString *), ...#>, nil];
