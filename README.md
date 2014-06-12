@@ -9,11 +9,11 @@ Xcode代码片段共享
 1.add by ------>添加作者信息
 -----------------------------------
 ###
-    //add by <b>author</b>, begin
-    //reason:<b>reason</b>
-    //date:<b>yyyy</b>-<b>mm</b>-<b>dd</b>
+    //add by ____[author]____, begin
+    //reason:____[reason]____
+    //date:____[yyyy]____-____[mm]____-____[dd]____
     
-    <b>statements</b>
+    ____[statements]____
     
     //add end
 ###
@@ -21,7 +21,7 @@ Xcode代码片段共享
 2.apMonitorPointManager	------>添加埋点
 -----------------------------------
 ###
-	[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_<b>key</b>, kActionID, <b>业务ID</b>, kBizID, <b>埋点ID</b>, kActionSeed,   <b>当前视图</b>,kCurrentViewID, <b>上一个视图</b>,kLastViewID,<b>(NSString *), ...</b>, nil];
+	[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_____[key]____, kActionID, ____[业务ID]____, kBizID, ____[埋点ID]____, kActionSeed,   ____[当前视图]____,kCurrentViewID, ____[上一个视图]____,kLastViewID,____[(NSString *), ...]____, nil];
 ###
 
 
@@ -30,14 +30,14 @@ Xcode代码片段共享
 ###
 	- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 	{
-   	 <b>UITableViewCell</b> *cell = [tableView dequeueReusableCellWithIdentifier:<b>@"cell"</b>];
+   	 ____[UITableViewCell]____ *cell = [tableView dequeueReusableCellWithIdentifier:____[@"cell"]____];
     
    	 if (nil == cell)
    	 {
-      		  cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:<b>@"cell"</b>];
+      		  cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:____[@"cell"]____];
   	  }
     
-    <b>statements</b>
+    ____[statements]____
     
     return cell;
 	}
@@ -46,7 +46,7 @@ Xcode代码片段共享
 4.clicked ------>按钮事件
 -----------------------------------
 ###
-	- (void)<b>btn</b>Clicked:(id)sender
+	- (void)____[btn]____Clicked:(id)sender
 	{
     
 	}
@@ -55,7 +55,7 @@ Xcode代码片段共享
 5.myCell ------>创建cell
 -----------------------------------
 ###
-	static NSString *cellIdentifier = <b>@"cellIdentifier"</b>;
+	static NSString *cellIdentifier = ____[@"cellIdentifier"]____;
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 
 	if (!cell)
@@ -77,7 +77,7 @@ Xcode代码片段共享
 7.id ------>声明delegate
 -----------------------------------
 ###
-	id<b>protocol</b> <b>delegate</b>;
+	id____[protocol]____ ____[delegate]____;
 ###
 
 8.didSelectRowAtIndexPath ------>选中cell
@@ -87,7 +87,7 @@ Xcode代码片段共享
 	{
     		[tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-   	 	<b>statements</b>
+   	 	____[statements]____
 	}
 ###
 
@@ -95,7 +95,7 @@ Xcode代码片段共享
 -----------------------------------
 ###
 	dispatch_async(dispatch_get_main_queue(), ^{
-                <b>code</b>
+                ____[code]____
             });
 ###
 
@@ -103,7 +103,7 @@ Xcode代码片段共享
 -----------------------------------
 ###
 	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-                <b>code</b>
+                ____[code]____
             });
 ###
 
