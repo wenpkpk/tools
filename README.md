@@ -6,7 +6,7 @@ Xcode代码片段共享
     git下载完，放在系统~/Library/Developer/Xcode/UserData/CodeSnippets
 
 
-1.add by	-添加作者
+1.add by ------>添加作者信息
 -----------------------------------
 ###
     //add by <b>author</b>, begin
@@ -18,7 +18,7 @@ Xcode代码片段共享
     //add end
 ###
 
-2.apMonitorPointManager	------>埋点
+2.apMonitorPointManager	------>添加埋点
 -----------------------------------
 ###
 	[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_<b>key</b>, kActionID, <b>业务ID</b>, kBizID, <b>埋点ID</b>, kActionSeed,   <b>当前视图</b>,kCurrentViewID, <b>上一个视图</b>,kLastViewID,<b>(NSString *), ...</b>, nil];
@@ -43,7 +43,7 @@ Xcode代码片段共享
 	}
 ###
 
-4.clicked
+4.clicked ------>按钮事件
 -----------------------------------
 ###
 	- (void)<b>btn</b>Clicked:(id)sender
@@ -52,7 +52,7 @@ Xcode代码片段共享
 	}
 ###
 
-5.myCell
+5.myCell ------>创建cell
 -----------------------------------
 ###
 	static NSString *cellIdentifier = <b>@"cellIdentifier"</b>;
@@ -64,7 +64,7 @@ Xcode代码片段共享
 	}
 ###
 
-6.dealloc
+6.dealloc ------>取消监听的dealloc
 -----------------------------------
 ###
 	-(void)dealloc
@@ -74,13 +74,13 @@ Xcode代码片段共享
 	}
 ###
 
-7.id
+7.id ------>声明delegate
 -----------------------------------
 ###
 	id<b>protocol</b> <b>delegate</b>;
 ###
 
-8.didSelectRowAtIndexPath
+8.didSelectRowAtIndexPath ------>选中cell
 -----------------------------------
 ###
 	- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -91,7 +91,7 @@ Xcode代码片段共享
 	}
 ###
 
-9.disAsyncMain或者dispatch_async_main
+9.disAsyncMain或者dispatch_async_main ------>异步dispatch到主线程
 -----------------------------------
 ###
 	dispatch_async(dispatch_get_main_queue(), ^{
@@ -99,7 +99,7 @@ Xcode代码片段共享
             });
 ###
 
-10.disAsyncGlobal或者dispatch_async_global
+10.disAsyncGlobal或者dispatch_async_global ------>异步dispatch到global
 -----------------------------------
 ###
 	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
