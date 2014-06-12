@@ -18,9 +18,8 @@ Xcode代码片段共享
 
 2.apMonitorPointManager	—-埋点
 ###
-[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_left***key***right, kActionID, left***业务ID***right, kBizID, left***埋点ID***right, kActionSeed,   left***当前视图***right,kCurrentViewID, left***上一个视图***right,kLastViewID,left***(NSString *), ...***right, nil];
+ABC
 ###
-
 
 
 tools
