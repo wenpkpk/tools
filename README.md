@@ -21,7 +21,10 @@ Xcode代码片段共享
 2.apMonitorPointManager	------>添加埋点
 -----------------------------------
 ###
-	[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_____[key]____, kActionID, ____[业务ID]____, kBizID, ____[埋点ID]____, kActionSeed,   ____[当前视图]____,kCurrentViewID, ____[上一个视图]____,kLastViewID,____[(NSString *), ...]____, nil];
+	[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_____[key]____, kActionID, 
+			____[业务ID]____, kBizID, ____[埋点ID]____, kActionSeed,
+			____[当前视图]____,kCurrentViewID, ____[上一个视图]____,kLastViewID,
+			____[(NSString *), ...]____, nil];
 ###
 
 
@@ -30,16 +33,16 @@ Xcode代码片段共享
 ###
 	- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 	{
-   	 ____[UITableViewCell]____ *cell = [tableView dequeueReusableCellWithIdentifier:____[@"cell"]____];
+   		 ____[UITableViewCell]____ *cell = [tableView dequeueReusableCellWithIdentifier:____[@"cell"]____];
+    	
+   		 if (nil == cell)
+   	 	{
+      			  cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:____[@"cell"]____];
+  	 	}
     
-   	 if (nil == cell)
-   	 {
-      		  cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:____[@"cell"]____];
-  	  }
+    		____[code]____
     
-    ____[code]____
-    
-    return cell;
+   		 return cell;
 	}
 ###
 
