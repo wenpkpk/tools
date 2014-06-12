@@ -7,18 +7,18 @@ Xcode代码片段共享
 
 1.add by	-添加作者
 ###
-    //add by <b>author</b>, begin
-    //reason:<b>reason</b>
-    //date:<b>yyyy</b>-<b>mm</b>-<b>dd</b>
+    //add by <#author#>, begin
+    //reason:<#reason#>
+    //date:<#yyyy#>-<#mm#>-<#dd#>
     
-    <b>statements</b>
+    <#statements#>
     
     //add end
 ###
 
 2.apMonitorPointManager	—-埋点
 ###
-[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_<b>key</b>, kActionID, <b>业务ID</b>, kBizID, <b>埋点ID</b>, kActionSeed,   <b>当前视图</b>,kCurrentViewID, <b>上一个视图</b>,kLastViewID,<b>(NSString *), ...</b>, nil];
+[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_<#key#>, kActionID, <#业务ID#>, kBizID, <#埋点ID#>, kActionSeed,   <#当前视图#>,kCurrentViewID, <#上一个视图#>,kLastViewID,<#(NSString *), ...#>, nil];
 ###
 
 
@@ -26,14 +26,14 @@ Xcode代码片段共享
 ###
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    <b>UITableViewCell</b> *cell = [tableView dequeueReusableCellWithIdentifier:<b>@"cell"</b>];
+    <#UITableViewCell#> *cell = [tableView dequeueReusableCellWithIdentifier:<#@"cell"#>];
     
     if (nil == cell)
     {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:<b>@"cell"</b>];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:<#@"cell"#>];
     }
     
-    <b>statements</b>
+    <#statements#>
     
     return cell;
 }
@@ -41,7 +41,7 @@ Xcode代码片段共享
 
 4.clicked
 ###
-- (void)<b>btn</b>Clicked:(id)sender
+- (void)<#btn#>Clicked:(id)sender
 {
     
 }
@@ -49,7 +49,7 @@ Xcode代码片段共享
 
 5. myCell
 ###
-static NSString *cellIdentifier = <b>@"cellIdentifier"</b>;
+static NSString *cellIdentifier = <#@"cellIdentifier"#>;
 UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 
 if (!cell)
@@ -69,7 +69,7 @@ if (!cell)
 
 7.id
 ###
-id<<b>protocol</b>> <b>delegate</b>;
+id<#protocol#> <#delegate#>;
 ###
 
 8. didSelectRowAtIndexPath
@@ -78,21 +78,21 @@ id<<b>protocol</b>> <b>delegate</b>;
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    <b>statements</b>
+    <#statements#>
 }
 ###
 
 9.disAsyncMain或者dispatch_async_main
 ###
 dispatch_async(dispatch_get_main_queue(), ^{
-                <b>code</b>
+                <#code#>
             });
 ###
 
 10.disAsyncGlobal或者dispatch_async_global
 ###
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-                <b>code</b>
+                <#code#>
             });
 ###
 
