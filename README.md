@@ -18,14 +18,14 @@ Xcode代码片段共享
     //add end
 ###
 
-2.apMonitorPointManager	—-埋点
+2.apMonitorPointManager	------>埋点
 -----------------------------------
 ###
 	[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_<b>key</b>, kActionID, <b>业务ID</b>, kBizID, <b>埋点ID</b>, kActionSeed,   <b>当前视图</b>,kCurrentViewID, <b>上一个视图</b>,kLastViewID,<b>(NSString *), ...</b>, nil];
 ###
 
 
-3.cellForRowAtIndexPath	—-cell
+3.cellForRowAtIndexPath	------>cell
 -----------------------------------
 ###
 	- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
