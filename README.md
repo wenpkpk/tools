@@ -47,7 +47,7 @@ Xcode代码片段共享
 	}
 ###
 
-5. myCell
+5.myCell
 ###
 	static NSString *cellIdentifier = left***@"cellIdentifier"***right;
 UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
@@ -72,7 +72,7 @@ if (!cell)
 	idleft***protocol***right left***delegate***right;
 ###
 
-8. didSelectRowAtIndexPath
+8.didSelectRowAtIndexPath
 ###
 	- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 	{
