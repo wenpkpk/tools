@@ -18,14 +18,15 @@ Xcode代码片段共享
     //add end
 ###
 
------------------------------------
 2.apMonitorPointManager	—-埋点
+-----------------------------------
 ###
 	[[APMonitorPointManager sharedInstance] addLogsAndKeys:kActionID_<b>key</b>, kActionID, <b>业务ID</b>, kBizID, <b>埋点ID</b>, kActionSeed,   <b>当前视图</b>,kCurrentViewID, <b>上一个视图</b>,kLastViewID,<b>(NSString *), ...</b>, nil];
 ###
 
 
 3.cellForRowAtIndexPath	—-cell
+-----------------------------------
 ###
 	- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 	{
@@ -43,6 +44,7 @@ Xcode代码片段共享
 ###
 
 4.clicked
+-----------------------------------
 ###
 	- (void)<b>btn</b>Clicked:(id)sender
 	{
@@ -51,6 +53,7 @@ Xcode代码片段共享
 ###
 
 5.myCell
+-----------------------------------
 ###
 	static NSString *cellIdentifier = <b>@"cellIdentifier"</b>;
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
@@ -62,6 +65,7 @@ Xcode代码片段共享
 ###
 
 6.dealloc
+-----------------------------------
 ###
 	-(void)dealloc
 	{
@@ -71,11 +75,13 @@ Xcode代码片段共享
 ###
 
 7.id
+-----------------------------------
 ###
 	id<b>protocol</b> <b>delegate</b>;
 ###
 
 8.didSelectRowAtIndexPath
+-----------------------------------
 ###
 	- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 	{
@@ -86,6 +92,7 @@ Xcode代码片段共享
 ###
 
 9.disAsyncMain或者dispatch_async_main
+-----------------------------------
 ###
 	dispatch_async(dispatch_get_main_queue(), ^{
                 <b>code</b>
@@ -93,6 +100,7 @@ Xcode代码片段共享
 ###
 
 10.disAsyncGlobal或者dispatch_async_global
+-----------------------------------
 ###
 	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                 <b>code</b>
