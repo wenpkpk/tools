@@ -49,7 +49,7 @@ Xcode代码片段共享
 
 5. myCell
 ###
-static NSString *cellIdentifier = left***@"cellIdentifier"***right;
+	static NSString *cellIdentifier = left***@"cellIdentifier"***right;
 UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 
 if (!cell)
@@ -60,7 +60,7 @@ if (!cell)
 
 6.dealloc
 ###
--(void)dealloc
+	-(void)dealloc
 {
     [NSObject cancelPreviousPerformRequestsWithTarget:self];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -69,12 +69,12 @@ if (!cell)
 
 7.id
 ###
-idleft***protocol***right left***delegate***right;
+	idleft***protocol***right left***delegate***right;
 ###
 
 8. didSelectRowAtIndexPath
 ###
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+	- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
@@ -84,14 +84,14 @@ idleft***protocol***right left***delegate***right;
 
 9.disAsyncMain或者dispatch_async_main
 ###
-dispatch_async(dispatch_get_main_queue(), ^{
+	dispatch_async(dispatch_get_main_queue(), ^{
                 left***code***right
             });
 ###
 
 10.disAsyncGlobal或者dispatch_async_global
 ###
-dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                 left***code***right
             });
 ###
