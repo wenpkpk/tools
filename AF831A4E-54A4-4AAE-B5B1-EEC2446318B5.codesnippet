@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property</string>
+	<string>appStart</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, weak) &lt;#var#&gt;</string>
+	<string>[DTContextGet() startApplication:&lt;#appId#&gt; params:&lt;#params#&gt; animated:&lt;#YES#&gt;];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>33A4C8F9-52CC-4605-8B30-C30C118E0D12</string>
+	<string>AF831A4E-54A4-4AAE-B5B1-EEC2446318B5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>定义weak属性</string>
+	<string>启动一个app</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-Property-weak</string>
+	<string>My-StartApp</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

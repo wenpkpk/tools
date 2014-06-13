@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nsNotificationCenterRemoveObserverName</string>
+	<string>notifAddObserverName</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[[NSNotificationCenter defaultCenter] removeObserver:&lt;#self#&gt;
-                                                            name:&lt;#(NSString *)#&gt;
-                                              object:&lt;#nil#&gt;];</string>
+                                                    name:&lt;#(NSString *)#&gt;
+                                                  object:&lt;#nil#&gt;];
+    [[NSNotificationCenter defaultCenter] addObserver:&lt;#self#&gt;
+                                             selector:&lt;#(SEL)#&gt;
+                                                 name:&lt;#(NSString *)#&gt;
+                                               object:&lt;#nil#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F99AFE53-63DA-48FE-9EA6-F36C93DA201A</string>
+	<string>666F803B-134D-45F1-8495-630B00DDF5F3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>根据name，取消消息监听</string>
+	<string>根据name，添加监听消息</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-NSNotificationCenter-removeObserver-name</string>
+	<string>My-NSNotificationCenter-AddObserver-Name</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

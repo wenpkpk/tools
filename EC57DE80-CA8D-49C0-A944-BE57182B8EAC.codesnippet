@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@synchronized(self)
 {
-    &lt;#statements#&gt;
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EC57DE80-CA8D-49C0-A944-BE57182B8EAC</string>

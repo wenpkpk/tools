@@ -13,12 +13,12 @@
     {
         case &lt;#constant#&gt;:
         {
-            &lt;#statements#&gt;
+            &lt;#code#&gt;
             break;
         }
         default:
         {
-            &lt;#statements#&gt;
+            &lt;#code#&gt;
             break;
         }
     }</string>

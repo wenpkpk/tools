@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property</string>
+	<string>asyncDispatchMain</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, weak) &lt;#var#&gt;</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+        &lt;#code#&gt;
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>33A4C8F9-52CC-4605-8B30-C30C118E0D12</string>
+	<string>4DF9641E-72CA-48AE-A339-394B56DB8B08</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>定义weak属性</string>
+	<string>异步dispatch到主线程</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-Property-weak</string>
+	<string>My-Dispatch-Async-Main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

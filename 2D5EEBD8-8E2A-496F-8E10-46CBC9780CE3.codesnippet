@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>case &lt;#constant#&gt;:
 {
-    &lt;#statements#&gt;
+    &lt;#code#&gt;
     
     break;
 }</string>

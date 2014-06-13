@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>//test
 #ifdef DEBUG
-&lt;#statements#&gt;
+&lt;#code#&gt;
 return &lt;#expression#&gt;
 #endif
 //test</string>

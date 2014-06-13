@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)&lt;#btn#&gt;Clicked:(id)sender
 {
-    
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D449A566-9023-45D0-9AC8-A6AFA1EF0B73</string>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

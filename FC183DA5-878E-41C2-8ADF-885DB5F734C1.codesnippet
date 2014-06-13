@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property</string>
+	<string>notifRemoveObserverName</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, weak) &lt;#var#&gt;</string>
+	<string>[[NSNotificationCenter defaultCenter] removeObserver:&lt;#self#&gt;
+                                                    name:&lt;#(NSString *)#&gt;
+                                                  object:&lt;#nil#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>33A4C8F9-52CC-4605-8B30-C30C118E0D12</string>
+	<string>FC183DA5-878E-41C2-8ADF-885DB5F734C1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>定义weak属性</string>
+	<string>根据name，移除监听消息</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-Property-weak</string>
+	<string>My-NSNotificationCenter-RemoveObserver-Name</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

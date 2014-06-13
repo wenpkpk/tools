@@ -13,7 +13,7 @@
 {
     int numberOfRows = 0;
     
-    &lt;#statements#&gt;
+    &lt;#code#&gt;
     
     return numberOfRows;
 }</string>

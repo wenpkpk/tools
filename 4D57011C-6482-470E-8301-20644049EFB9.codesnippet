@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>else if (&lt;#expression#&gt;)
 {
-    &lt;#statements#&gt;
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4D57011C-6482-470E-8301-20644049EFB9</string>

@@ -18,7 +18,7 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:&lt;#@"cell"#&gt;];
     }
     
-    &lt;#statements#&gt;
+    &lt;#code#&gt;
     
     return cell;
 }</string>

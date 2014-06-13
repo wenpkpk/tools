@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSMutableArray *mutableArray = [NSMutableArray array];    </string>
+	<string>NSMutableArray *&lt;#mutableArray#&gt; = [NSMutableArray array];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8BEE493A-FF90-4603-9C99-FA082E4AAF51</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
