@@ -12,19 +12,19 @@ Xcode代码片段共享
 1.@propertyAssign ------>声明一个assign变量
 -----------------------------------
 ###
-	@property(nonatomic, assign) 
+	@property(nonatomic, assign) ____[var]____
 ###
 
 2.@propertyStrong ------>声明一个strong变量
 -----------------------------------
 ###
-	@property(nonatomic, strong) 
+	@property(nonatomic, strong) ____[var]____
 ###
 
 3.@propertyWeak ------>声明一个weak变量
 -----------------------------------
 ###
-	@property(nonatomic, weak) 
+	@property(nonatomic, weak) ____[var]____
 ###
 4.id ------>声明delegate
 -----------------------------------
@@ -34,7 +34,7 @@ Xcode代码片段共享
 
 
 
-变量定义
+变量定义(约定以”my”开头)
 =====
 
 1.myMutableArray ------>定义一个可变数组array
