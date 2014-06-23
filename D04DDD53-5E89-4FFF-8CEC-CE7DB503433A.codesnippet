@@ -3,52 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragmaAll</string>
+	<string>myButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - private
-
-
-
-#pragma mark ______doing
-
-
-
-#pragma mark ______clicked
-
-
-
-#pragma mark ______create
-
-
-
-#pragma mark ______notif
-
-
-
-#pragma mark - DataSource
-
-
-
-#pragma mark - Delegates
-
-
-
-#pragma mark - public
-
-
-</string>
+	<string>UIButton *&lt;#btn#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>94C99658-E8DC-4A8E-A83B-9D91EB1F78A4</string>
+	<string>D04DDD53-5E89-4FFF-8CEC-CE7DB503433A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>代码分割mark</string>
+	<string>创建一个button</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My-mark-all</string>
+	<string>My-myBtn</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

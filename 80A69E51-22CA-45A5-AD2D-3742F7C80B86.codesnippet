@@ -9,7 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self performSelectorInBackground:&lt;#(SEL)#&gt; withObject:&lt;#nil#&gt;];</string>
+	<string>[self performSelectorInBackground:&lt;#(SEL)#&gt; 
+                       withObject:&lt;#nil#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>80A69E51-22CA-45A5-AD2D-3742F7C80B86</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -9,7 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self performSelectorOnMainThread:&lt;#(SEL)#&gt; withObject:&lt;#nil#&gt; waitUntilDone:&lt;#(BOOL)#&gt;];</string>
+	<string>[self performSelectorOnMainThread:&lt;#(SEL)#&gt;
+                       withObject:&lt;#nil#&gt; 
+                    waitUntilDone:&lt;#(BOOL)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B640B9F1-157B-43C3-8EA4-594231808A4D</string>
 	<key>IDECodeSnippetLanguage</key>

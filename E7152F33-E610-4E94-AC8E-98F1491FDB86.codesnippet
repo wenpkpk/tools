@@ -9,7 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self performSelector:&lt;#(SEL)#&gt; withObject:&lt;#nil#&gt; afterDelay:&lt;#(NSTimeInterval)#&gt;];</string>
+	<string>[self performSelector:&lt;#(SEL)#&gt;
+           withObject:&lt;#nil#&gt; 
+           afterDelay:&lt;#(NSTimeInterval)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E7152F33-E610-4E94-AC8E-98F1491FDB86</string>
 	<key>IDECodeSnippetLanguage</key>
